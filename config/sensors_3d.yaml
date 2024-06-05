@@ -8,4 +8,5 @@ default_sensor:
   padding_scale: 1.0
   point_cloud_topic: /realsense/points
   point_subsample: 1
-  sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
+  #sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
+  sensor_plugin: occupancy_map_monitor/DepthImageOctomapUpdater
